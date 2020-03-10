@@ -9,7 +9,7 @@
 
 body {
 	color: white; /*(default font color for the entire page)*/
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300; /*(font thickness)*/
 }
 
@@ -21,10 +21,11 @@ header {
 	width: 100%;
 	top: 0;
 	z-index: 5; /*(ensures nav bar appears in front of other elements)*/
-	font-size: 1.2em;
+	font-size: 1.1em;
     transition: top 0.2s ease-in-out;
     background-color: #b4ff49;
     opacity: 0.8;
+    
 }
 
 /*----------------navigation container-----------------*/
@@ -34,7 +35,7 @@ header {
 
 /*----------------text-based logo-----------------*/
 .brand {
-    padding: 15px 0 15px 45px;
+    padding: 0px 0 15px 45px;
     float: left;
 }
 
@@ -96,7 +97,7 @@ nav ul li ul li a {
 }	
 
 a.text:link, a.text:visited {
-    background-color: #68ACF0;
+    background-color: #4c9900;
     color: white;
     padding: 4px 4px;
     text-align: center;
@@ -279,7 +280,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 700;
     color: transparent;
-    background: -webkit-linear-gradient(left,green,white,yellow);
+    background: -webkit-linear-gradient(left,green,yellow);
     -webkit-background-clip: text;
     margin: 0;
     line-height: initial;
@@ -330,8 +331,8 @@ filter: alpha(opacity=70)
 /* captions below slideshow*/
 #alt-caption {
     background-color: ;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
+    color: #f5ff82;
+    font-family: 'Poppins', sans-serif;
     font-size: .9em;
     margin-left: auto;
     margin-right: auto;
@@ -415,17 +416,17 @@ footer a:hover {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
-  color: darkgreen; /* Text color */
+  background-color: #525252; /* Set a background color */
+  color: whitesmoke; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-family: 'Open Sans', sans-serif;
-  font-size: 11px; /* Increase font size */
+  font-size: 12px; /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: darkblue;
+  background-color: #4c9900;
   opacity: 0.75;   
 }
 
