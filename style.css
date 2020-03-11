@@ -1,5 +1,9 @@
 /* CSS Document */
 
+html {
+	scroll-behavior: smooth;
+}
+
 /*----------------PARALLAX IMAGE-----------------*/
 .parallax {
 	min-height: 450px;
