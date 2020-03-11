@@ -15,13 +15,14 @@ body {
 
 /*----------------navigation section-----------------*/
 header {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Prompt', sans-serif;
 	height: 105px; /*(height of nav bar)*/
 	position: fixed; /*(keeps nav bar visible when scrolling)*/
 	width: 100%;
 	top: 0;
 	z-index: 5; /*(ensures nav bar appears in front of other elements)*/
-	font-size: 1.1em;
+	font-size: 1.2em;
+    font-weight: bold;
     transition: top 0.2s ease-in-out;
     background-color: #b4ff49;
     opacity: 0.8;
@@ -35,7 +36,7 @@ header {
 
 /*----------------text-based logo-----------------*/
 .brand {
-    padding: 0px 0 15px 45px;
+    padding: 15px 0 15px 45px;
     float: left;
 }
 
@@ -45,7 +46,7 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  background: #ffffff;
+  background: #b4ff49;
   height: 70px;
   width: 70px;
 }
@@ -162,7 +163,7 @@ a.text:hover, a.text:active {
     padding: 15px;
     line-height: 20px;
     background-color: white;
-    opacity: 0.75;
+    opacity: 1;
   }
   nav ul li ul li a {
     padding-left: 30px;
