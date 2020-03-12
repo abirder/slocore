@@ -113,23 +113,23 @@ a.text:hover, a.text:active {
     color: black;
 }
 .row a{
-	color: white;
+	color: green;
     font-family: 'Muli', sans-serif;
     text-transform: uppercase;
-    padding: .5rem 1rem;
-    padding-right: 2rem;
-    border-radius: 30px;
+    height: 45px;
+    width: 150px;
+    padding: 9px;
+    border-radius: 50%;
     margin: 40px auto;
     text-align: center;
-    position: relative;
-    display: block;
-    width: 175px;
+    position: center;
+    display: inline-block;
     letter-spacing: .3px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: initial;
-    background: url(img/arrow.png) #4c9900;
-    background-size: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: bottom;
+    background: url(img/arrow.png) #fff;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: 96%;
 	text-decoration: none;
@@ -140,6 +140,7 @@ a.text:hover, a.text:active {
 	    text-decoration: none;
     transition: all 0.3s ease-in 0s;
 }
+
 /*----------------media queries-----------------*/
 
 /*If device width is less than or equal to 800px, then do ...*/
@@ -249,7 +250,7 @@ a.text:hover, a.text:active {
 
 .container {
 	position: relative;
-    background-image: url(img/main2.jpg);
+    background-image: url(img/main5.jpg);
     height: 100vh;
     background-size: cover;
     background-position: 50% 50%;
@@ -369,7 +370,7 @@ footer {
 footer a {
 	text-decoration: none; /*(nullifies underline)*/
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 /*(link color when moused over)*/
 footer a:hover {
@@ -427,7 +428,7 @@ footer a:hover {
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px; /* Increase font size */
 }
 
@@ -439,4 +440,59 @@ footer a:hover {
 /*----menu dissapear when scroll---*/
 .nav-up {
   top: -105px; 
+}
+
+.loader{
+	-webkit-perspective:700px;
+	perspective: 700px;
+    padding-top: 150px;
+    padding-left: 400px;
+   }
+
+.loader>span{
+	font-size: 150px;
+	font-family: 'Oxanium', bold;
+	display: inline-block;
+	animation:flip 2.6s infinite linear;
+	transform-origin:0 70%;
+	transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+}
+
+@keyframes flip{
+	35%{
+		transform: rotateX(360deg);
+	}
+	100%{
+		transform: rotatex(360deg);
+	}
+}
+
+.loader>span:nth-child(even){
+	color:#4c9900;
+}
+
+.loader>span:nth-child(2){
+	animation-delay: 0.3s;
+    
+}
+
+.loader>span:nth-child(3){
+	animation-delay: 0.6s;
+}
+
+.loader>span:nth-child(4){
+	animation-delay: 0.9s;
+}
+
+.loader>span:nth-child(5){
+	animation-delay: 1.2s;
+}
+
+.loader>span:nth-child(6){
+	animation-delay: 1.5s
+}
+
+.loader>span:nth-child(7){
+	animation-delay: 1.8s
 }
