@@ -488,7 +488,7 @@ footer a:hover {
 .loader>span{
 	font-size: 150px;
 	font-family: 'Oxanium', bold;
-    color: #000000;
+    color: #b4ff49;
 	display: inline-block;
 	animation:flip 2.6s infinite linear;
 	transform-origin:0 70%;
