@@ -80,7 +80,7 @@ nav ul li a:visited {
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-    background-color: #525252;
+    background-color: #4c9900;
     color: white;
 }
 nav ul li a:not(:only-child):after,
