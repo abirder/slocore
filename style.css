@@ -122,7 +122,7 @@ a.text:hover, a.text:active {
     border-radius: 50%;
     margin: 40px auto;
     text-align: center;
-    position: center;
+    position: relative;
     display: inline-block;
     letter-spacing: .3px;
     font-size: 15px;
@@ -133,12 +133,18 @@ a.text:hover, a.text:active {
     background-repeat: no-repeat;
     background-position: 96%;
 	text-decoration: none;
+    animation: mymove 5s infinite;
 }
 .row a:hover{
 	    background-color: #4c9900;
     color: initial;
 	    text-decoration: none;
     transition: all 0.3s ease-in 0s;
+}
+
+@keyframes mymove {
+  from {left: -100px;}
+  to {left: 100px;}
 }
 
 /*----------------media queries-----------------*/
